@@ -1,0 +1,58 @@
+body, html {
+    font-family: Helvetica, Arial, Sans-Serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+
+.overlay {
+    font-size: 30pt;
+    position: absolute;
+    z-index: 100;
+    pointer-events: none;
+}
+
+/* === Tango states === */
+
+svg .status-UNKNOWN {
+    stroke: white;
+    fill: rgb(128,128,128) !important;
+}
+
+svg .state-INIT {
+    fill: rgb(204,204,122) !important;
+}
+
+svg .state-DISABLE {
+    fill: rgb(255,0,255) !important;
+}
+
+svg .state-STANDBY {
+    fill: rgb(255,255,0) !important;
+}
+
+svg .state-ON, svg .state-OPEN, svg .state-EXTRACT {
+    stroke: #808080;
+    fill: #00FF00 !important;
+}
+
+svg .state-OFF, svg .state-CLOSE, svg .state-INSERT {
+    stroke: grey;
+    fill: white !important;
+}
+
+svg .state-FAULT {
+    stroke: white;
+    fill: red !important;
+}
+
+svg .state-RUNNING, svg .state-MOVING {
+    fill: rgb(128,160,255) !important;
+}
+
+svg .state-ALARM {
+    stroke: white;
+    fill: rgb(255,140,0) !important;
+}

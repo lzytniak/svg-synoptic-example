@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Beamline Synoptic
+Exec=ctsynoptic
+Type=Application
+Categories=Science;
+Comment=Beamline overview
+Terminal=false
+Name[en_US]=example-synoptic
+Comment[en_US.UTF-8]=Beamline overview
